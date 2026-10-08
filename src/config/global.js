@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Valoración y tratamiento de riesgos en sistemas de inteligencia artificial generativa',
+    Description: 'El componente Valoración y tratamiento de riesgos en sistemas de inteligencia artificial generativa desarrolla capacidades para analizar y priorizar riesgos mediante la valoración de su probabilidad, impacto y nivel de criticidad. Promueve la aplicación de criterios, matrices y controles para definir medidas de tratamiento, responsables, indicadores y acciones de seguimiento, favoreciendo una gestión responsable de la inteligencia artificial generativa alineada con los objetivos y requerimientos del proceso de negocio.    ',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
@@ -12,6 +12,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+      },
+      {
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.svg',
       },
     ],
   },
@@ -31,27 +35,19 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Valoración de riesgos en sistemas de inteligencia artificial generativa',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Factores para determinar el nivel de riesgo',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Impactos asociados con los sistemas de inteligencia artificial generativa',
         desarrolloContenidos: true,
       },
     ],
@@ -97,14 +93,102 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Control',
+      significado: 'Medida técnica, humana, administrativa, contractual u organizacional destinada a prevenir, detectar, reducir o corregir un riesgo.',
+    },
+    {
+      termino: 'Criticidad',
+      significado: 'Grado de importancia de un activo, proceso, sistema o decisión según las consecuencias que produciría su afectación.',
+    },
+    {
+      termino: 'Eficacia del control',
+      significado: 'Grado en que una medida implementada logra modificar efectivamente la probabilidad o el impacto del escenario para el cual fue diseñada.',
+    },
+    {
+      termino: 'Evidencia',
+      significado: 'Información verificable empleada para sustentar una valoración, como resultados de pruebas, registros, auditorías, documentación técnica, incidentes o entrevistas.',
+    },
+    {
+      termino: 'Exposición',
+      significado: 'Grado en que una persona, activo, proceso o sistema se encuentra sujeto a condiciones que permiten la materialización de un riesgo.',
+    },
+    {
+      termino: 'Impacto',
+      significado: 'Magnitud de las consecuencias que pueden producirse cuando se materializa un escenario de riesgo.',
+    },
+    {
+      termino: 'Indicador de riesgo',
+      significado: 'Variable utilizada para observar el comportamiento de un riesgo o de los controles aplicados y facilitar su seguimiento.',
+    },
+    {
+      termino: 'Matriz de riesgos',
+      significado: 'Instrumento que organiza escenarios de riesgo y consolida información sobre probabilidad, impacto, controles, nivel inherente, nivel residual y prioridad.',
+    },
+    {
+      termino: 'Mitigación',
+      significado: 'Aplicación de medidas destinadas a reducir la probabilidad de un riesgo, disminuir sus consecuencias o actuar simultáneamente sobre ambas dimensiones.',
+    },
+    {
+      termino: 'Plan de tratamiento',
+      significado: 'Instrumento que establece las acciones necesarias para intervenir riesgos priorizados, indicando responsables, recursos, plazos, indicadores y mecanismos de seguimiento.',
+    },
+    {
+      termino: 'Probabilidad',
+      significado: 'Estimación de la posibilidad de que un escenario de riesgo ocurra bajo determinadas condiciones.',
+    },
+    {
+      termino: 'Riesgo inherente',
+      significado: 'Nivel de riesgo existente antes de considerar la aplicación y eficacia de los controles implementados.',
+    },
+    {
+      termino: 'Riesgo residual',
+      significado: 'Nivel de riesgo que permanece después de considerar los controles existentes y su eficacia.',
+    },
+    {
+      termino: 'Supervisión humana',
+      significado: 'Capacidad efectiva de una persona competente para revisar, intervenir, modificar o detener resultados y acciones de un sistema de inteligencia artificial.',
+    },
+    {
+      termino: 'Tolerancia al riesgo',
+      significado: 'Margen específico de riesgo que la organización admite dentro de un proceso o actividad antes de requerir intervención adicional.',
+    },
+    {
+      termino: 'Tratamiento del riesgo',
+      significado: 'Proceso mediante el cual se seleccionan e implementan opciones para evitar, reducir, compartir, transferir o aceptar un riesgo.',
+    },
+    {
+      termino: 'Umbral de riesgo',
+      significado: 'Valor o condición previamente definida que determina cuándo un indicador o escenario requiere atención, escalamiento o tratamiento adicional.',
     },
   ],
   referencias: [
     {
-      referencia: '---',
-      link: '---',
+      referencia: 'Departamento Nacional de Planeación. (2025). Documento CONPES 4144: Política Nacional de Inteligencia Artificial. Consejo Nacional de Política Económica y Social, República de Colombia.',
+      link: '',
+    },
+    {
+      referencia: 'International Organization for Standardization, & International Electrotechnical Commission. (2023a). ISO/IEC 23894:2023 Information technology. Artificial intelligence. Guidance on risk management. ISO.',
+      link: '',
+    },
+    {
+      referencia: 'International Organization for Standardization, & International Electrotechnical Commission. (2023b). ISO/IEC 42001:2023 Information technology. Artificial intelligence. Management system. ISO.',
+      link: '',
+    },
+    {
+      referencia: 'International Organization for Standardization, & International Electrotechnical Commission. (2023c). ISO/IEC 5338:2023 Information technology. Artificial intelligence. AI system life cycle processes. ISO.',
+      link: '',
+    },
+    {
+      referencia: 'National Institute of Standards and Technology. (2023). Artificial Intelligence Risk Management Framework (AI RMF 1.0) (NIST AI 100-1). U.S. Department of Commerce.',
+      link: '',
+    },
+    {
+      referencia: 'National Institute of Standards and Technology. (2024). Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1). U.S. Department of Commerce.',
+      link: '',
+    },
+    {
+      referencia: 'OWASP Foundation. (2025). OWASP Top 10 for Large Language Model Applications.',
+      link: '',
     },
   ],
   creditos: [
@@ -143,7 +227,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: 'Andrea Paola Botello De la Rosa',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
