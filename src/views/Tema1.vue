@@ -50,19 +50,19 @@
             .col-md-6.col-lg.mb-5.mb-lg-0
               .tarjeta.bg-color-4
                 .p-4 
-                  p.mb-0 Interrumpir un proceso importante.
+                  p.mb-0.text-center Interrumpir un proceso importante.
         .col-lg-4
           .row.mb-4
             .col-md-6.col-lg.mb-5.mb-lg-0
               .tarjeta.bg-color-4
                 .p-4 
-                  p.mb-0 Comprometer información sensible.
+                  p.mb-0.text-center Comprometer información sensible.
         .col-lg-4
           .row.mb-4
             .col-md-6.col-lg.mb-5.mb-lg-0
               .tarjeta.bg-color-4
                 .p-4 
-                  p.mb-0 Generar una afectación significativa a las personas.
+                  p.mb-0.text-center Generar una afectación significativa a las personas.
       
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-4
@@ -70,13 +70,13 @@
             .col-md-6.col-lg.mb-5.mb-lg-0
               .tarjeta.bg-color-4
                 .p-4 
-                  p.mb-0 Producir incumplimientos legales o contractuales.
+                  p.mb-0.text-center Producir incumplimientos legales o contractuales.
         .col-lg-4
           .row.mb-4
             .col-md-6.col-lg.mb-5.mb-lg-0
               .tarjeta.bg-color-4
                 .p-4 
-                  p.mb-0 Generar consecuencias difíciles de corregir.
+                  p.mb-0.text-center Generar consecuencias difíciles de corregir.
       
       .row.mb-4
         .col-lg-12

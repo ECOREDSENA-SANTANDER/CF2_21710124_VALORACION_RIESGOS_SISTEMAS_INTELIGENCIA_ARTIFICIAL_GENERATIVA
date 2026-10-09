@@ -22,20 +22,20 @@
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-4
               .p-4 
-                p.mb-0 ¿Qué podría ocurrir?
+                p.mb-0.text-center ¿Qué podría ocurrir?
       .col-lg-4
         .row.mb-4
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-4
               .p-4 
-                p.mb-0 ¿Quiénes podrían verse afectados?
+                p.mb-0.text-center ¿Quiénes podrían verse afectados?
 
       .col-lg-4
         .row.mb-4
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-4
               .p-4 
-                p.mb-0 ¿Qué procesos o activos podrían comprometerse?
+                p.mb-0.text-center ¿Qué procesos o activos podrían comprometerse?
       
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-4
@@ -43,13 +43,13 @@
             .col-md-6.col-lg.mb-5.mb-lg-0
               .tarjeta.bg-color-4
                 .p-4 
-                  p.mb-0 ¿Durante cuánto tiempo podrían mantenerse las consecuencias?
+                  p.mb-0.text-center ¿Durante cuánto tiempo podrían mantenerse las consecuencias?
         .col-lg-4
           .row.mb-4
             .col-md-6.col-lg.mb-5.mb-lg-0
               .tarjeta.bg-color-4
                 .p-4 
-                  p.mb-0 ¿Qué tan fácil sería corregirlas?
+                  p.mb-0.text-center ¿Qué tan fácil sería corregirlas?
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
@@ -76,20 +76,20 @@
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-6
               .p-4 
-                p.mb-0 Información incorrecta.
+                p.mb-0.text-center Información incorrecta.
       .col-lg-4
         .row.mb-4
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-6
               .p-4 
-                p.mb-0 Decisiones o recomendaciones inadecuadas.
+                p.mb-0.text-center Decisiones o recomendaciones inadecuadas.
 
       .col-lg-4
         .row.mb-4
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-6
               .p-4 
-                p.mb-0 Exposición de datos personales.
+                p.mb-0.text-center Exposición de datos personales.
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4
@@ -97,20 +97,20 @@
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-6
               .p-4 
-                p.mb-0 Sesgos o representaciones estereotipadas.
+                p.mb-0.text-center Sesgos o representaciones estereotipadas.
       .col-lg-4
         .row.mb-4
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-6
               .p-4 
-                p.mb-0 Contenidos manipulados.
+                p.mb-0.text-center Contenidos manipulados.
 
       .col-lg-4
         .row.mb-4
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-6
               .p-4 
-                p.mb-0 Uso inadecuado de información.
+                p.mb-0.text-center Uso inadecuado de información.
     
     p La magnitud de estas consecuencias dependerá del contexto, de las personas involucradas y de la posibilidad de detectar y corregir el error.
 
@@ -207,20 +207,20 @@
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-6
               .p-4 
-                p.mb-0 Afectación de la privacidad.
+                p.mb-.text-center Afectación de la privacidad.
       .col-lg-4
         .row.mb-4
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-6
               .p-4 
-                p.mb-0 Pérdida de confidencialidad.
+                p.mb-0.text-center Pérdida de confidencialidad.
 
       .col-lg-4
         .row.mb-4
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-6
               .p-4 
-                p.mb-0 Incumplimiento de obligaciones de protección de datos.
+                p.mb-0.text-center Incumplimiento de obligaciones de protección de datos.
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4
@@ -228,20 +228,20 @@
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-6
               .p-4 
-                p.mb-0 Costos asociados con la atención del incidente.
+                p.mb-0.text-center Costos asociados con la atención del incidente.
       .col-lg-4
         .row.mb-4
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-6
               .p-4 
-                p.mb-0 Afectación reputacional.
+                p.mb-0.text-center Afectación reputacional.
 
       .col-lg-4
         .row.mb-4
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta.bg-color-6
               .p-4 
-                p.mb-0 Suspensión temporal del servicio.
+                p.mb-0.text-center Suspensión temporal del servicio.
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5

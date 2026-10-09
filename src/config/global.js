@@ -50,6 +50,18 @@ export default {
         titulo: 'Impactos asociados con los sistemas de inteligencia artificial generativa',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Construcción y análisis de la matriz de riesgos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Tratamiento y control de riesgos en inteligencia artificial generativa',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
