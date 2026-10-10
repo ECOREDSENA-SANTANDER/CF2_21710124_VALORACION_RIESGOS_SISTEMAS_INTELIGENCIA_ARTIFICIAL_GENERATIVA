@@ -538,7 +538,16 @@
 
     p Este ejemplo demuestra que el riesgo residual no depende exclusivamente de la puntuación inicial. Los controles existentes pueden modificar su nivel, pero los escenarios de impacto elevado pueden continuar requiriendo atención.
 
-    //podcats
+    .bg-color-1.mb-4
+      img(src='@/assets/curso/temas/t4/15.svg', alt='')
+      .bg-color-1.p-4
+        .tarjeta.bg-white.p-4
+          TarjetaAudio.color-acento-botones(
+          texto="<b>Pódcast:</b>"
+          :audio="require_src('@/assets/actividad/audio/success.mp3')")
+          .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+          p #[b ¡Explore el pódcast!]
+          p #[b Profundice en la priorización y el apetito de riesgo] y descubra cómo estos elementos orientan la toma de decisiones frente a los riesgos identificados. Reproduzca el pódcast, tome nota de los conceptos clave y prepárese para aplicarlos en el contexto organizacional.
 
     p Una organización puede establecer momentos específicos de reevaluación, por ejemplo:
 
